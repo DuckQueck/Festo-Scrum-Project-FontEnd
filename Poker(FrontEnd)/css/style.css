@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*---------------(HEADER)---------------*/
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-color: #D2D2D2FF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    position:fixed;
+    top:0;
+    z-index: 100;
+    background: #ffffff;
+}
+
+h3{
+    padding-top: 37px;
+    font-family: Segoe UI, FontAwesome;
+    font-size: 15px;
+}
+
+.text{
+    margin-left: 50px;
+    width: 150px;
+}
+
+.logo{
+    color: #499acc;
+    font-size: 25px;
+    margin-left: 1500px;
+    padding-top: 35px;
+    font-family: Franklin Gothic Medium;
+    text-align: right;
+}
+.login{
+    margin-left: 1350px;
+    width: 60px;
+}
+
+.login-link{
+    width: 60px;
+    font-size: 15px;
+    color: #000000;
+}
+
+
+.logo-link{
+    width: 20px;
+}
+/*---------------(CONTAINER)---------------*/
+.container{
+    margin-top: 75px;
+    height: 804px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.voting {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.voting .voting-controls{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2D2D2FF;
+    border-radius: 3px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 50px;
+    background: #EDF2F7FF;
+    min-width: 750px;
+}
+
+/*---------------(PLAYER-LIST)---------------*/
+.player-list{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2D2D2FF;
+    border-radius: 3px;
+    width: 250px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 75px;
+    background: #EDF2F7FF;
+}
+.list-top {
+    background: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    font-family: Segoe UI, FontAwesome;
+    font-weight: unset;
+    height: 35px;
+    border-bottom-color: #D2D2D2FF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.joined-players{
+    display: flex;
+    flex-direction: column;
+}
+.player{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-bottom-color: #D2D2D2FF;
+    border-bottom-width: 1px;
+}
+div .player-name{
+    width: 100px;
+    font-weight: unset;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Segoe UI, FontAwesome;
+}
+.voted{
+    width: 15px;
+    margin-left: 5px;
+    color: #6495ed;
+}
+.vote-result{
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: Snell Roundhand, cursive;
+
+}
+.profileImg{
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 35px;
+    height: 35px;
+    background: #c7c5c5;
+    border-radius: 110px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c7c5c5;
+}
+/*---------------(CARDS)---------------*/
+.voting .voting-area{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D2D2D2FF;
+    border-radius: 3px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 50px;
+    min-width: 750px;
+    background: #EDF2F7FF;
+}
+.card{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    border-width: 1px;
+    border-color: #ececec;
+    border-radius: 5px;
+    border-style: solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-middle{
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 5px;
+    border-style: solid;
+    width: 100px;
+    height: 150px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-middle h2{
+    font-family: Snell Roundhand, cursive;
+}
+.number-top {
+    margin-bottom: 175px;
+    text-align: right;
+    padding-left: 5px;
+    font-family: Snell Roundhand, cursive;
+}
+.number-bottom {
+    margin-top: 175px;
+    transform: rotate(180deg);
+    padding-left: 5px;
+    font-family: Snell Roundhand, cursive;
+}
+.card:hover{
+    border-width: 1px;
+    border-color: rgba(94, 155, 110, 0.71);
+    border-style: solid;
+    border-radius: 5px;
+}
+.row-1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row-2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/*---------------(FOOTER)---------------*/
+footer{
+    flex-direction: row;
+    border-top-color: #D2D2D2FF;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 50px;
+}
+footer div{
+    display: flex;
+    width: 1750px;
+    margin: auto;
+}
+div ul {
+    list-style-type: none;
+    text-align: right;
+    width: 525px;
+    margin-top: 20px;
+    margin-left: 850px;
+
+}
+div ul li {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+div ul li a{
+    color: #c7c5c5;
+    font-family: Segoe UI, FontAwesome;
+    font-weight: unset;
+    font-size: 13px;
+}
+footer div h5{
+    width: 275px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #c7c5c5;
+    font-family: Segoe UI, FontAwesome;
+    font-weight: unset;
+    font-size: 13px;
+}
